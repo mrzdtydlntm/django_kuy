@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Hello</title>
+        <link rel="stylesheet" href={% static "css/mystyle.css" %}>
+    </head>
+    <body>
+        <h1>Hello this is testpage</h1>
+        <h2>{{ insert_content }}</h2>
+        <img src="{% static "images/apaweh.jpg" %}" alt="Image didn't show">
+
+    </body>
+</html>
